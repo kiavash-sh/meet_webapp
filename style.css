@@ -1,17 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   background: #0f172a;
-  color: white;
-  font-family: sans-serif;
-  padding: 20px;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
 }
-input, button {
+
+.app {
+  padding: 16px;
+  max-width: 480px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.card {
+  background: #020617;
+  padding: 12px;
+  border-radius: 14px;
+  margin-bottom: 16px;
+}
+
+input {
   width: 100%;
-  margin: 6px 0;
+  margin-bottom: 8px;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
+  background: #020617;
+  color: white;
+  border: 1px solid #1e293b;
 }
+
 button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
   background: #6366f1;
   color: white;
+  font-weight: bold;
+}
+
+.meet {
+  background: #020617;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.meet small {
+  color: #94a3b8;
+}
+
+.meet button {
+  background: #ef4444;
+  margin-top: 6px;
 }
